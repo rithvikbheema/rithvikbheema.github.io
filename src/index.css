@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scale the whole layout up on large screens. Tailwind sizes are in rem,
+   so raising the root font size widens containers and enlarges text together
+   instead of leaving the content in a narrow strip on 1600px+ displays. */
+@media (min-width: 1600px) {
+  html { font-size: 112.5%; }
+}
+@media (min-width: 1850px) {
+  html { font-size: 125%; }
+}
+@media (min-width: 2400px) {
+  html { font-size: 150%; }
+}
+
 :root {
   --color-primary: #38bdf8;
   --color-accent: #06b6d4;

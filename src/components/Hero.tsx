@@ -14,11 +14,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
   const currentModeInfo = modeData[mode];
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-28 pb-16 [@media(max-height:820px)]:pt-24 [@media(max-height:820px)]:pb-10 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-6xl w-full mx-auto relative z-10">
         
         {/* Top Pre-badge & Status */}
-        <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
+        <div className="flex flex-wrap items-center justify-between gap-3 mb-8 [@media(max-height:820px)]:mb-5">
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -95,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
             </motion.div>
 
             {/* Dynamic Headline Based on Active Mode */}
-            <div className="min-h-[140px] sm:min-h-[120px]">
+            <div className="min-h-[140px] sm:min-h-[120px] [@media(max-height:820px)]:min-h-0">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={mode}
@@ -294,7 +294,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
         </div>
 
         {/* Bottom Scroll Indicator */}
-        <div className="mt-16 flex justify-center">
+        <div className="mt-16 flex justify-center [@media(max-height:820px)]:hidden">
           <a
             href="#about"
             className="flex flex-col items-center gap-2 text-slate-500 hover:text-slate-300 transition-colors group"
