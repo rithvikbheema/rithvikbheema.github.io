@@ -57,6 +57,22 @@ export interface EducationItem {
   highlights: string[];
 }
 
+export interface PublicationItem {
+  id: string;
+  title: string;
+  authors: string[];
+  highlightAuthor: string;
+  venue: string;
+  details: string;
+  published: string;
+  type: string;
+  doi: string;
+  url: string;
+  pdfUrl?: string;
+  summary: string;
+  keywords: string[];
+}
+
 export interface CertificationItem {
   id: string;
   title: string;

@@ -8,6 +8,7 @@ import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Certifications } from './components/Certifications';
+import { Publications } from './components/Publications';
 import { ResumeSection } from './components/ResumeSection';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -30,6 +31,7 @@ export const AppContent: React.FC = () => {
         <About />
         <Experience />
         <Projects />
+        <Publications />
         <Skills />
         <Certifications />
         <ResumeSection onOpenResumeModal={() => setIsResumeModalOpen(true)} />

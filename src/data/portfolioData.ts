@@ -1,4 +1,4 @@
-import { Project, ExperienceItem, EducationItem, CertificationItem, SkillGroup } from '../types';
+import { Project, ExperienceItem, EducationItem, CertificationItem, SkillGroup, PublicationItem } from '../types';
 
 export const personalInfo = {
   fullName: "Bheema Sai Rithvik",
@@ -215,7 +215,8 @@ export const projectsData: Project[] = [
       "Reverse osmosis desalination modeling for clean feed water extraction.",
       "Machine learning prediction of green hydrogen production rates using neural networks.",
       "Energy recovery modeled using a Pelton turbine on high-pressure reject brine.",
-      "Parametric system optimization executed with Bayesian Optimization algorithms."
+      "Parametric system optimization executed with Bayesian Optimization algorithms.",
+      "Related review co-authored and published in IJSCI, Vol. 3 Issue 4 (April 2026)."
     ],
     systemHighlights: [
       { title: "Renewable Power Feed", detail: "Geothermal cycle delivers baseload clean power and thermal energy." },
@@ -496,6 +497,24 @@ export const skillsData: Record<'data-ai' | 'core-eng', SkillGroup[]> = {
     }
   ]
 };
+
+export const publicationsData: PublicationItem[] = [
+  {
+    id: "ijsci-geothermal-h2-review",
+    title: "Geothermal-based Integrated Systems for Hydrogen Production – A Review",
+    authors: ["Vijay Raviprabhakaran", "Rithvik Bheema Sai", "Sai Ganesh Tammannagari", "Haindavi Rao Kotte", "Purmi Jacinth"],
+    highlightAuthor: "Rithvik Bheema Sai",
+    venue: "International Journal of Sciences and Innovation Engineering (IJSCI)",
+    details: "Vol. 3, Issue 4, pp. 2974–2982",
+    published: "April 2026",
+    type: "Journal article · Open access",
+    doi: "10.70849/ijsci03042600927",
+    url: "https://ijsci.com/paper-details.php/51700927/geothermal-based-integrated-systems-for-hydrogen-production-a-review",
+    pdfUrl: "https://www.researchgate.net/publication/404438300_Geothermal-based_integrated_systems_for_hydrogen_production_-A_Review",
+    summary: "Reviews geothermal-powered systems that combine Organic Rankine Cycle power generation, reverse osmosis desalination and PEM electrolysis for green hydrogen, and proposes a simplified framework that uses simulation, data-driven models to predict system behaviour, and optimisation to find operating conditions that improve hydrogen yield and energy efficiency.",
+    keywords: ["Green Hydrogen", "Geothermal Energy", "Desalination", "Data-Driven Modelling", "Optimisation"]
+  }
+];
 
 export const certificationsData: CertificationItem[] = [
   {
