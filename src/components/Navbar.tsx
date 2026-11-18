@@ -64,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResumeModal }) => {
           <a
             href="#hero"
             className="flex items-center gap-3 group focus:outline-none"
-            aria-label="B. Sai Rithvik - Home"
+            aria-label="Sai Rithvik Bheema - Home"
           >
             <div
               className={`w-9 h-9 rounded-lg flex items-center justify-center font-mono font-bold text-sm tracking-tighter border transition-all duration-300 ${

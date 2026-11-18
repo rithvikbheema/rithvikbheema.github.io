@@ -80,16 +80,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                 {personalInfo.fullName}
               </h1>
               <div className="flex items-center gap-3 mt-2">
-                <span className="text-sm font-mono text-slate-400">Preferred Display:</span>
-                <span className={`text-base font-semibold font-mono tracking-wider px-2.5 py-0.5 rounded border ${
-                  isDataMode
-                    ? 'text-cyan-300 bg-cyan-950/40 border-cyan-500/30'
-                    : 'text-orange-300 bg-orange-950/40 border-orange-500/30'
-                }`}>
-                  {personalInfo.displayName}
-                </span>
-                <span className="text-xs text-slate-500 font-mono hidden sm:inline">
-                  • {personalInfo.location}
+                <span className="text-xs text-slate-500 font-mono ">
+                  {personalInfo.location}
                 </span>
               </div>
             </motion.div>

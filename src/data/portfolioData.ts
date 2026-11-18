@@ -1,13 +1,13 @@
 import { Project, ExperienceItem, EducationItem, CertificationItem, SkillGroup, PublicationItem } from '../types';
 
 export const personalInfo = {
-  fullName: "Bheema Sai Rithvik",
-  displayName: "B. Sai Rithvik",
-  initials: "BSR",
+  fullName: "Sai Rithvik Bheema",
+  displayName: "Sai Rithvik Bheema",
+  initials: "SRB",
   location: "Hyderabad, Telangana, India",
   tagline: "Data Analyst | Python · SQL · Power BI | Machine Learning",
   mainHeadline: "Engineering Intelligence. Building What’s Next.",
-  mainSupportingText: "I'm B. Sai Rithvik, a 2026 Electrical and Electronics Engineering graduate from CBIT, Hyderabad, focused on data analytics and machine learning, with a foundation in core engineering.",
+  mainSupportingText: "I'm Sai Rithvik Bheema, a 2026 Electrical and Electronics Engineering graduate from CBIT, Hyderabad, focused on data analytics and machine learning, with a foundation in core engineering.",
   githubUrl: "https://github.com/rithvikbheema",
   linkedinUrl: "https://www.linkedin.com/in/sairithvikbheema/",
   email: "sairithvik1209@gmail.com",
