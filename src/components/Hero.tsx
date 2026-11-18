@@ -176,6 +176,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResumeModal }) => {
                 <LinkedinIcon className="w-4 h-4" />
                 <span className="font-mono text-xs">LinkedIn</span>
               </a>
+              <span className="text-slate-600">•</span>
+              <a
+                href={personalInfo.orcidUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1.5 hover:text-white transition-colors"
+              >
+                <span className="font-mono text-xs">ORCID</span>
+              </a>
             </div>
 
           </div>

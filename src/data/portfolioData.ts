@@ -9,6 +9,7 @@ export const personalInfo = {
   mainHeadline: "Engineering Intelligence. Building What’s Next.",
   mainSupportingText: "I'm Sai Rithvik Bheema, a 2026 Electrical and Electronics Engineering graduate from CBIT, Hyderabad, focused on data analytics and machine learning, with a foundation in core engineering.",
   githubUrl: "https://github.com/rithvikbheema",
+  orcidUrl: "https://orcid.org/0009-0002-3154-2075",
   linkedinUrl: "https://www.linkedin.com/in/sairithvikbheema/",
   email: "sairithvik1209@gmail.com",
   status: "Open to Data Analyst & Entry-Level Roles · B.E. 2026 Graduate",
